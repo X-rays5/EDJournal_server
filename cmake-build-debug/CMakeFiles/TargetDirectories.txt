@@ -1,0 +1,3 @@
+C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug/CMakeFiles/EDJournal_server.dir
+C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug/CMakeFiles/rebuild_cache.dir

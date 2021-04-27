@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EDJournal_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\vcpkg\;CMake Files\..\..\..\..\..\vcpkg\scripts\;CMake Files\..\..\..\..\..\vcpkg\scripts\buildsystems\;CMake Files\..\..\..\..\..\vcpkg\installed\;CMake Files\..\..\..\..\..\vcpkg\installed\x64-windows\;CMake Files\..\..\..\..\..\vcpkg\installed\x64-windows\share\;CMake Files\..\..\..\..\..\vcpkg\installed\x64-windows\share\websocketpp\;CMake Files\..\..\..\..\..\vcpkg\installed\x64-windows\share\rapidjson\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDJournal_server">
+				<Option output="C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug/EDJournal_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/vcpkg/installed/x64-windows/share/rapidjson/../../include"/>
+					<Add directory="C:/vcpkg/installed/x64-windows/share/websocketpp/../../include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 EDJournal_server"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EDJournal_server/fast">
+				<Option output="C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug/EDJournal_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/vcpkg/installed/x64-windows/share/rapidjson/../../include"/>
+					<Add directory="C:/vcpkg/installed/x64-windows/share/websocketpp/../../include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 EDJournal_server/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/X-ray/source/repos/EDJournal_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\X-ray\source\repos\EDJournal_server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/X-ray/source/repos/EDJournal_server/main.cpp">
+			<Option target="EDJournal_server"/>
+		</Unit>
+		<Unit filename="C:/Users/X-ray/source/repos/EDJournal_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/X-ray/source/repos/EDJournal_server/../../../../../vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/Users/X-ray/source/repos/EDJournal_server/../../../../../vcpkg/installed/x64-windows/share/websocketpp/websocketpp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\vcpkg\installed\x64-windows\share\websocketpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/X-ray/source/repos/EDJournal_server/../../../../../vcpkg/installed/x64-windows/share/rapidjson/RapidJSONConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\vcpkg\installed\x64-windows\share\rapidjson\"/>
+		</Unit>
+		<Unit filename="C:/Users/X-ray/source/repos/EDJournal_server/../../../../../vcpkg/installed/x64-windows/share/rapidjson/RapidJSONConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\vcpkg\installed\x64-windows\share\rapidjson\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
